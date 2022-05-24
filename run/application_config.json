@@ -102,25 +102,25 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-session/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-security/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-jsonp/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-onerror/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-i18n/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-watcher/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-schedule/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-multipart/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-development/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-logrotator/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-static/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-view/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/locales",
-        "/Users/shellcoochi/code/coochi-cli-server/config/locales"
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-session\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-security\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-jsonp\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-onerror\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-i18n\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-watcher\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-schedule\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-multipart\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-development\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-logrotator\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-static\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-view\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\locales",
+        "C:\\work\\shellcoochi\\coochi-cli-server\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -131,8 +131,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -156,7 +156,7 @@
       "fileExtensions": [],
       "whitelist": null,
       "allowArrayField": false,
-      "tmpdir": "/var/folders/q3/y7d9g5950cj7vk7mwjkwmhp80000gn/T/egg-multipart-tmp/coochi-cli-server",
+      "tmpdir": "C:\\Users\\supOS\\AppData\\Local\\Temp\\egg-multipart-tmp\\coochi-cli-server",
       "cleanSchedule": {
         "cron": "0 30 4 * * *",
         "disable": false
@@ -181,14 +181,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/shellcoochi/code/coochi-cli-server/app/public",
+      "dir": "C:\\work\\shellcoochi\\coochi-cli-server\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/shellcoochi/code/coochi-cli-server/app/view",
+      "root": "C:\\work\\shellcoochi\\coochi-cli-server\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -251,9 +251,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/shellcoochi/code/coochi-cli-server",
-    "HOME": "/Users/shellcoochi",
-    "rundir": "/Users/shellcoochi/code/coochi-cli-server/run",
+    "baseDir": "C:\\work\\shellcoochi\\coochi-cli-server",
+    "HOME": "C:\\Users\\supOS",
+    "rundir": "C:\\work\\shellcoochi\\coochi-cli-server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -286,7 +286,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/shellcoochi/code/coochi-cli-server/logs/coochi-cli-server",
+      "dir": "C:\\work\\shellcoochi\\coochi-cli-server\\logs\\coochi-cli-server",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -382,8 +382,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-onerror",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -393,8 +393,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-session",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -404,8 +404,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-i18n",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -415,8 +415,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-watcher",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -428,8 +428,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-multipart",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -441,8 +441,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-security",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-security",
       "version": "2.10.1"
     },
     "development": {
@@ -456,8 +456,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-development",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -469,8 +469,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-logrotator",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -480,8 +480,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-schedule",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -491,8 +491,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-static",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -504,8 +504,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-jsonp",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -515,16 +515,16 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg/config/plugin.js",
-      "path": "/Users/shellcoochi/code/coochi-cli-server/node_modules/egg-view",
+      "from": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\work\\shellcoochi\\coochi-cli-server\\node_modules\\egg-view",
       "version": "2.1.3"
     }
   },
   "appInfo": {
     "name": "coochi-cli-server",
-    "baseDir": "/Users/shellcoochi/code/coochi-cli-server",
+    "baseDir": "C:\\work\\shellcoochi\\coochi-cli-server",
     "env": "local",
-    "HOME": "/Users/shellcoochi",
+    "HOME": "C:\\Users\\supOS",
     "pkg": {
       "name": "coochi-cli-server",
       "version": "1.0.0",
@@ -572,6 +572,6 @@
       "author": "",
       "license": "MIT"
     },
-    "root": "/Users/shellcoochi/code/coochi-cli-server"
+    "root": "C:\\work\\shellcoochi\\coochi-cli-server"
   }
 }

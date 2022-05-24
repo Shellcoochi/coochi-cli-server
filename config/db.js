@@ -1,7 +1,7 @@
 'use strict';
 
 /**MONGODB */
-const mongodnUrl = 'mongodb://127.0.0.1:27017';
+const mongodnUrl = 'mongodb://admin:123456@59.110.22.17:27017';
 const mongodbDbName = 'coochi-cli';
 
 module.exports = {
